@@ -35,12 +35,12 @@ import typescript from "./tech/typescript.png";
 import graphql from "./tech/graphql.png";
 import postgresql from "./tech/postgresql.png";
 import rubyrails from "./tech/rubyrails.png";
-
+import sharkfin from "./projects/sharkfin_technologies_logo.jpeg";
 import coverhunt from "./company/coverhunt.png";
 import dcc from "./company/dcc.png";
 import kelhel from "./company/kelhel.png";
 import microverse from "./company/microverse.png";
-import cityWalker from "./logo/cityWalker.png";
+import cityWalker from "./projects/cityWalker.png";
 import komikult from "./projects/komikult.png";
 import leaderboard from "./projects/leaderboard.png";
 import math from "./projects/math-magicians.png";
@@ -53,6 +53,7 @@ import nishatLogo from "./company/nishatlogo.jpeg";
 import pizza from "./company/pizza.png";
 import master from "./company/master.webp";
 import events from "./company/events.png";
+import citywalker90 from "./projects/citywalker-90.png";
 
 export {
   bwmap,
@@ -107,4 +108,6 @@ export {
   events,
   tick,
   cityWalker,
+  sharkfin,
+  citywalker90,
 };
