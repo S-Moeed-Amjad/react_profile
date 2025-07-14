@@ -40,7 +40,7 @@ import coverhunt from "./company/coverhunt.png";
 import dcc from "./company/dcc.png";
 import kelhel from "./company/kelhel.png";
 import microverse from "./company/microverse.png";
-import cityWalker from "./projects/cityWalker.png";
+import cityWalker from "./projects/citywalker.png";
 import komikult from "./projects/komikult.png";
 import leaderboard from "./projects/leaderboard.png";
 import math from "./projects/math-magicians.png";
