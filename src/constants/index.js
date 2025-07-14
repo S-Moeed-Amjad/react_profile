@@ -20,6 +20,8 @@ import {
   cityWalker,
   master,
   events,
+  sharkfin,
+  citywalker90,
 } from "../assets";
 
 export const navLinks = [
@@ -172,14 +174,15 @@ const projects = [
       },
     ],
     image: cityWalker,
+    image2: citywalker90,
     repo: "",
-    demo: "https://play.google.com/store/apps/details?id=com.nishat.hotel",
+    demo: "",
   },
   {
     id: "project-2",
     name: "WLA",
     description:
-      "This is a food application, where you can customise your meal and add different sides of your choice. There are two types of order in the application. One is pickup and the other one is delivery.The application is based on a SaaS model, we change themes according to client’s requirement but the business logic remains same.",
+      "This is a food web application, where you can customise your meal and add different sides of your choice. There are two types of order in the application. One is pickup and the other one is delivery.The application is based on a SaaS model, we change themes according to client’s requirement but the business logic remains same.",
     tags: [
       {
         name: "reactjs",
@@ -195,36 +198,38 @@ const projects = [
       },
     ],
     image: pizza,
-    repo: "https://github.com/Mujtaba-rajput",
+    repo: "",
     demo: "https://app.myway.techverxcloud.com/",
   },
   {
-    id: "project-4",
-    name: "Master Your Medics",
-    description: `Master Your Medics is your go-to resource to become a better Paramedic/EMT student by making the learning easier. No more being overwhelmed.No more waiting years before you escape the textbooks.`,
+    id: "project-3",
+    name: "WLA Mobile",
+    description:
+      "This is a food mobile application, where you can customise your meal and add different sides of your choice. There are two types of order in the application. One is pickup and the other one is delivery.The application is based on a SaaS model, we change themes according to client’s requirement but the business logic remains same.",
     tags: [
       {
-        name: "react native",
+        name: "react Native",
         color: "blue-text-gradient",
       },
       {
-        name: "redux saga",
+        name: "redux toolkit query",
         color: "green-text-gradient",
       },
       {
-        name: "react native web view",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: master,
-    repo: "https://github.com/Mujtaba-rajput",
-    demo: "https://play.google.com/store/apps/details?id=com.masteryourmedics",
+    image: pizza,
+    repo: "",
+    demo: "",
   },
+
   {
     id: "project-5",
-    name: "Memorease",
+    name: "Sharkfin",
     description:
-      "Memorease is a platform that allows users to create and manage his life events e.g Birthday, Anniversaries etc.You can add your friends, the notification is send to their profiles for the newly created events.",
+      "A web-based solution that allows investment firms to configure and enforce trade compliance rules, ensuring all trades meet regulatory and internal standards. The module also provides a complete audit trail of historical trades, supporting transparency, risk reduction, and streamlined trade oversight within a dynamic market environment.",
     tags: [
       {
         name: "react native",
@@ -239,8 +244,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: events,
-    repo: "https://github.com/Mujtaba-rajput",
+    image: sharkfin,
+    repo: "",
   },
 ];
 

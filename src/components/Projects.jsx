@@ -16,6 +16,7 @@ const ProjectCard = ({
   index,
   active,
   handleClick,
+  image2,
 }) => {
   return (
     <motion.div
@@ -32,7 +33,7 @@ const ProjectCard = ({
       ></div>
 
       <img
-        src={image}
+        src={active === id ? image : image2 ?? image}
         alt={name}
         className="absolute w-full h-full object-cover rounded-[24px]"
       />
