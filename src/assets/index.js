@@ -54,6 +54,8 @@ import pizza from "./company/pizza.png";
 import master from "./company/master.webp";
 import events from "./company/events.png";
 import citywalker90 from "./projects/citywalker-90.png";
+import deepfake from "./projects/deepfake.png";
+import deepfake90 from "./projects/deepfake-90.png";
 
 export {
   bwmap,
@@ -110,4 +112,6 @@ export {
   cityWalker,
   sharkfin,
   citywalker90,
+  deepfake,
+  deepfake90,
 };

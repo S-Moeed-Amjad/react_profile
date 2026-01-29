@@ -22,6 +22,8 @@ import {
   events,
   sharkfin,
   citywalker90,
+  deepfake,
+  deepfake90,
 } from "../assets";
 
 export const navLinks = [
@@ -131,6 +133,13 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Bachelor",
+    company_name: "FAST Nuces",
+    icon: reactjs,
+    iconBg: "#333333",
+    date: "Aug 2017 - Nov 2021",
+  },
+  {
     title: "Software Engineer Intern",
     company_name: "Techverx",
     icon: reactjs,
@@ -151,11 +160,42 @@ const experiences = [
     iconBg: "#333333",
     date: "Jun 2023 - Feb 2025",
   },
+  {
+    title: "Masters",
+    company_name: "Birmingham City University",
+    icon: reactjs,
+    iconBg: "#333333",
+    date: "Jan 2025 - Jan 2026",
+  },
 ];
 
 const projects = [
   {
     id: "project-1",
+    name: "DeepFake Detector",
+    description:
+      "Personal project built as a course assessment. The web application allows the user to upload image/video and the websit would tell if that video is a deepfake or not.",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux saga",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react native reanimatted",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: deepfake,
+    image2: deepfake90,
+    repo: "https://github.com/S-Moeed-Amjad/deepfake-detection",
+    demo: "https://deepfake-detection-project.netlify.app/",
+  },
+  {
+    id: "project-2",
     name: "City Walker",
     description:
       "Personal project built as a course assessment. The application allows the user to explore the city and provide information about nearby events taking place.",
@@ -175,11 +215,11 @@ const projects = [
     ],
     image: cityWalker,
     image2: citywalker90,
-    repo: "",
+    repo: "https://github.com/S-Moeed-Amjad/CityWalkerMobApp",
     demo: "",
   },
   {
-    id: "project-2",
+    id: "project-3",
     name: "WLA",
     description:
       "This is a food web application, where you can customise your meal and add different sides of your choice. There are two types of order in the application. One is pickup and the other one is delivery.The application is based on a SaaS model, we change themes according to client’s requirement but the business logic remains same.",
@@ -202,7 +242,7 @@ const projects = [
     demo: "https://app.myway.techverxcloud.com/",
   },
   {
-    id: "project-3",
+    id: "project-4",
     name: "WLA Mobile",
     description:
       "This is a food mobile application, where you can customise your meal and add different sides of your choice. There are two types of order in the application. One is pickup and the other one is delivery.The application is based on a SaaS model, we change themes according to client’s requirement but the business logic remains same.",
